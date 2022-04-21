@@ -18,3 +18,7 @@
     - [Community]() -->
 
 ---
+
+### + @
+- [x] 용어사전
+    - [링크](https://github.com/radic2510/online-edu-platform/blob/main/Ubiqutious_language.md)
