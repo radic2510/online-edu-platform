@@ -16,10 +16,10 @@
 - [x] REST API 설계하기
     - [링크](https://github.com/radic2510/online-edu-platform/blob/main/restapi.md)
 
-- [ ] 각 Domain App의 Service Interface 정의하기
-    <!-- - [User]()
-    - [Lecture]()
-    - [Community]() -->
+- [x] 각 Domain App의 Service Interface 정의하기
+    - [User](https://github.com/radic2510/online-edu-platform-user)
+    - [Lecture](https://github.com/radic2510/online-edu-platform-lecture)
+    - [Community](https://github.com/radic2510/online-edu-platform-community)
 
 ---
 
