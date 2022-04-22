@@ -6,7 +6,7 @@
 <details>
   <summary>
     <code>POST</code> 
-    <code><b>/</b></code> 
+    <code><b>/users</b></code> 
     <code>(강사회원 생성)</code>
   </summary>
 
@@ -37,7 +37,7 @@
 <details>
   <summary>
     <code>POST</code> 
-    <code><b>/join</b></code>
+    <code><b>/users/join</b></code>
     <code>(학생회원 가입)</code>
   </summary>
 
@@ -63,7 +63,7 @@
 <details>
   <summary>
     <code>POST</code> 
-    <code><b>/login</b></code> 
+    <code><b>/users/login</b></code> 
     <code>(회원 로그인)</code>
   </summary>
 
