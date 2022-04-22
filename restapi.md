@@ -112,7 +112,7 @@
 <details>
   <summary>
     <code>GET</code> 
-    <code><b>/lecture/{lectureId}</b></code> 
+    <code><b>/lectures/{lectureId}</b></code> 
     <code>(강의 열람)</code>
   </summary>
 
@@ -139,7 +139,7 @@
 <details>
   <summary>
     <code>GET</code> 
-    <code><b>/lecture/{lectureId}/content</b></code> 
+    <code><b>/lectures/{lectureId}/contents</b></code> 
     <code>(콘텐츠 리스트 조회)</code>
   </summary>
 
@@ -161,7 +161,7 @@
 <details>
   <summary>
     <code>GET</code> 
-    <code><b>/lecture/{lectureId}/content/{contentId}</b></code> 
+    <code><b>/lectures/{lectureId}/contents/{contentId}</b></code> 
     <code>(콘텐츠 열람)</code>
   </summary>
 
@@ -182,7 +182,7 @@
 <details>
   <summary>
     <code>GET</code> 
-    <code><b>/lecture/{lectureId}/score</b></code> 
+    <code><b>/lectures/{lectureId}/score</b></code> 
     <code>(성적 조회)</code>
   </summary>
 
@@ -204,7 +204,7 @@
 <details>
   <summary>
     <code>GET</code> 
-    <code><b>/lecture/{lectureId}/rating</b></code> 
+    <code><b>/lectures/{lectureId}/rating</b></code> 
     <code>(별점 리스트 조회)</code>
   </summary>
 
@@ -226,7 +226,7 @@
 <details>
   <summary>
     <code>GET</code> 
-    <code><b>/lecture/{lectureId}/rating/{ratingId}</b></code> 
+    <code><b>/lectures/{lectureId}/rating/{ratingId}</b></code> 
     <code>(별점 조회)</code>
   </summary>
 
@@ -249,7 +249,7 @@
 <details>
   <summary>
     <code>POST</code> 
-    <code><b>/lecture/{lectureId}/enrolment</b></code> 
+    <code><b>/lectures/{lectureId}/enrolment</b></code> 
     <code>(수강 신청)</code>
   </summary>
 
@@ -275,7 +275,7 @@
 <details>
   <summary>
     <code>POST</code> 
-    <code><b>/lecture/{lectureId}/matching</b></code> 
+    <code><b>/lectures/{lectureId}/matching</b></code> 
     <code>(강사 매칭)</code>
   </summary>
 
@@ -302,7 +302,7 @@
 <details>
   <summary>
     <code>POST</code> 
-    <code><b>/lecture/{lectureId}/content</b></code> 
+    <code><b>/lectures/{lectureId}/contents</b></code> 
     <code>(컨텐츠 등록)</code>
   </summary>
 
@@ -329,7 +329,7 @@
 <details>
   <summary>
     <code>POST</code> 
-    <code><b>/lecture/{lectureId}/score/{userId}</b></code> 
+    <code><b>/lectures/{lectureId}/score/{userId}</b></code> 
     <code>(성적 입력)</code>
   </summary>
 
@@ -356,7 +356,7 @@
 <details>
   <summary>
     <code>POST</code> 
-    <code><b>/lecture/{lectureId}/rating</b></code> 
+    <code><b>/lectures/{lectureId}/rating</b></code> 
     <code>(별점 입력)</code>
   </summary>
 
@@ -385,7 +385,7 @@
 <details>
   <summary>
     <code>PATCH</code> 
-    <code><b>/lecture/{lectureId}</b></code> 
+    <code><b>/lectures/{lectureId}</b></code> 
     <code>(강의 노출 상태 변경)</code>
   </summary>
 
@@ -419,7 +419,7 @@
 <details>
   <summary>
     <code>GET</code> 
-    <code><b>/article</b></code> 
+    <code><b>/articles</b></code> 
     <code>(게시글 리스트 조회)</code>
   </summary>
 
@@ -440,7 +440,7 @@
 <details>
   <summary>
     <code>GET</code> 
-    <code><b>/article/{articleId}/comment</b></code> 
+    <code><b>/articles/{articleId}/comments</b></code> 
     <code>(댓글 리스트 조회)</code>
   </summary>
 
@@ -460,7 +460,7 @@
 <details>
   <summary>
     <code>GET</code> 
-    <code><b>/article/{articleId}/comment/{commentId}</b></code> 
+    <code><b>/articles/{articleId}/comments/{commentId}</b></code> 
     <code>(댓글 조회)</code>
   </summary>
 
@@ -482,7 +482,7 @@
 <details>
   <summary>
     <code>GET</code> 
-    <code><b>/article/{articleId}</b></code> 
+    <code><b>/articles/{articleId}</b></code> 
     <code>(게시글 조회)</code>
   </summary>
 
@@ -506,7 +506,7 @@
 <details>
   <summary>
     <code>POST</code> 
-    <code><b>/article</b></code> 
+    <code><b>/articles</b></code> 
     <code>(게시글 작성)</code>
   </summary>
 
@@ -534,7 +534,7 @@
 <details>
   <summary>
     <code>POST</code> 
-    <code><b>/article/{articleId}</b></code> 
+    <code><b>/articles/{articleId}</b></code> 
     <code>(댓글 작성)</code>
   </summary>
 
@@ -564,7 +564,7 @@
 <details>
   <summary>
     <code>PATCH</code> 
-    <code><b>/article/{articleId}</b></code> 
+    <code><b>/articles/{articleId}</b></code> 
     <code>(게시글 숨김 처리)</code>
   </summary>
 
@@ -591,7 +591,7 @@
 <details>
   <summary>
     <code>PATCH</code> 
-    <code><b>/article/{articleId}/{commentId}</b></code> 
+    <code><b>/articles/{articleId}/{commentId}</b></code> 
     <code>(댓글 숨김 처리)</code>
   </summary>
 
