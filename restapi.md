@@ -92,7 +92,7 @@
 <details>
   <summary>
     <code>GET</code> 
-    <code><b>/lecture</b></code> 
+    <code><b>/lectures</b></code> 
     <code>(강의 리스트 조회)</code>
   </summary>
 
@@ -245,6 +245,33 @@
 </details>
 
 <br>
+<details>
+  <summary>
+    <code>POST</code> 
+    <code><b>/lectures</b></code> 
+    <code>(강의 개설)</code>
+  </summary>
+
+##### Header
+
+> | name   | Description      | Required |
+> |--------|------------------|-----------|
+> | `Authorization` |   사용자 인증 수단, 액세스 토큰 값     | O |
+##### Parameters
+
+> | name   |  type      | Description      | Required |
+> |--------|------------|----------------|---|
+> | `title` |  String  | 강의명     | O |
+> | `location` |  String  | 장소     |  |
+
+##### Responses
+
+> | name   |  type      | Description      | Required |
+> |--------|------------|----------------|---|
+> | `lectureId` |  Integer  | 강의 ID     | O |
+
+</details>
+
 
 <details>
   <summary>
