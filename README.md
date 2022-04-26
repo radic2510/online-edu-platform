@@ -1,6 +1,16 @@
 # DDD설계 과제
 
-## 온라인 강의 학습, 커뮤니티를 만든다면?
+## 온라인 강의 학습, 커뮤니티를 만든다면
+
+---
+최종제출
+
+- [Eureka](https://github.com/jeong-soo/online-edu-platform-eureka): https://github.com/jeong-soo/online-edu-platform-eureka
+- [Gateway](https://github.com/jeong-soo/online-edu-platform-gateway): https://github.com/jeong-soo/online-edu-platform-gateway
+- [User](https://github.com/radic2510/online-edu-platform-user): https://github.com/radic2510/online-edu-platform-user
+- [Lecture](https://github.com/radic2510/online-edu-platform-lecture): https://github.com/radic2510/online-edu-platform-lecture
+- [Community](https://github.com/radic2510/online-edu-platform-community): https://github.com/radic2510/online-edu-platform-community
+
 
 ---
 
