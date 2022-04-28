@@ -7,7 +7,7 @@
 
 - [Eureka](https://github.com/jeong-soo/online-edu-platform-eureka): https://github.com/jeong-soo/online-edu-platform-eureka
 - [Gateway](https://github.com/jeong-soo/online-edu-platform-gateway): https://github.com/jeong-soo/online-edu-platform-gateway
-- [User](https://github.com/radic2510/online-edu-platform-user): https://github.com/radic2510/online-edu-platform-user
+- [User](https://github.com/boookk/online-edu-platform-user): https://github.com/boookk/online-edu-platform-user
 - [Lecture](https://github.com/radic2510/online-edu-platform-lecture): https://github.com/radic2510/online-edu-platform-lecture
 - [Community](https://github.com/radic2510/online-edu-platform-community): https://github.com/radic2510/online-edu-platform-community
 
